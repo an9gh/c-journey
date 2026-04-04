@@ -1,5 +1,6 @@
 #Ignore compiled binaries
-hello
 *.o
 *.out
 a.out
+hello
+variables
