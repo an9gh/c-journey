@@ -9,8 +9,17 @@ int main(){
 		printf("%d x %d = %d\n",num,i,num*i);
 	}
 	
-
-
+	//while-loop
+	
+	int i = 1;
+	
+	while (i <=20){
+		i++;
+		if (i % 2 != 0) {
+			continue;
+		}
+		printf("%d ",i);
+	}
 
 	return 0;
 }
