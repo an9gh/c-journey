@@ -1,6 +1,10 @@
 #include <stdio.h>
 int main(){
-	int n = 9875;
+	int n;
+	
+	printf("Enter your digits: ");
+	scanf("%d",&n);
+
 	int sum = 0;
 	printf("Number: %d\n",n);
 	while (n != 0){
