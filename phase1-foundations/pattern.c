@@ -14,7 +14,7 @@ int main(){
 
 	}	
 
-	printf("\n"); //new line for pattern separation
+	printf("\n"); //new line for triangle-reverse pattern
 
 	for (int row = 1; row <= n; row++) {
 		for (int col = 1; col <= n-row+1; col++) {
@@ -22,6 +22,8 @@ int main(){
 		}
 		printf("\n");
 	}
+	
+	printf("\n"); //new line for number pattern
 
 	for (int row = 1; row <= n; row++) {
 		for (int col = 1; col <=row; col++) {
