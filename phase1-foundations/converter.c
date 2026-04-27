@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main(){
+	/*purpose: unit converter*/
 	printf("=== Unit Converter ===\n");
 	// F = (C × 9/5) + 32(celsius to fehrenheit)
 	float celsius=46, fahrenheit,miles,pounds,kilogram=70,kilometer=10;
